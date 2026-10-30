@@ -92,7 +92,7 @@ streamlit run app.py
 ```text
 ContextAI/
 │
-├── raw/
+├── raw/                 # Complete workflow in command line
 │   ├── database.py     
 │   └── main.py          
 │
