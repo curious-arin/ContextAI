@@ -103,8 +103,6 @@ if not st.session_state.authenticated:
 
 elif not st.session_state.pdf_processed:
 
-    st.subheader("📄 Upload Your PDF")
-
     st.write("Upload a PDF document to start chatting with ContextAI.")
 
     uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
